@@ -31,6 +31,8 @@ int main()
     atlag /= N_ELEMENTS; // Helyes átlag számítás, maradhat
     std::cout << "Atlag: " << atlag << std::endl;
 
+    std::cout << "Új kiírás ismerős által." << std::endl;
+
     delete[] b; // Memóriaszivárgás elkerülése
     return 0;
 }
